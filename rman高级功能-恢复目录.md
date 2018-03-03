@@ -11,9 +11,9 @@ autoextend on next 50m;
 create user c##rcat_owner identified by Rcat9095
 default tablespace rman
 quota unlimited on rman;
-```
 
 grant recovery_catalog_owner to c##rcat_owner;
+```
 
 ### 3.创建恢复目录
 ```
